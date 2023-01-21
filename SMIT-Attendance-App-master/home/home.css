@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 90.5%;
+}
+/* nav start */
+.nav_main {
+  background-color: white;
+  border: 1px solid black;
+}
+.nav_items_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.smit-logo {
+  width: 7rem;
+}
+.app_name {
+  font-size: 1.5rem;
+}
+/* nav end */
+.card_container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+
+  /* border: 2px solid black; */
+}
+
+.manageClass {
+  width: 200px;
+  height: 50px;
+}
+/* card */
+.bannerImg {
+  width: 100%;
+  height: 100px;
+}
+.card_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  border: 1px solid black !important;
+  width: 200px;
+  height: 180px;
+}
+.card button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
